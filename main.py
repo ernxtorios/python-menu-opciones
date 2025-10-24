@@ -9,10 +9,10 @@ def menu_principal():
         "3": ("Modificar", modificar),
         "4": ("Eliminar", eliminar),
         "5": ("Mostrar", mostrar),
-        "9": ("Salir", salir)
+        "0": ("Salir", salir)
     }
 
-    generar_menu(opciones, '9')
+    generar_menu(opciones, '0')
 
 
 def mostrar():
